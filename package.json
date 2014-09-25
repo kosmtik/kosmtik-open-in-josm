@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/kosmtik/kosmtik-open-in-josm",
   "peerDependencies": {
-    "kosmtik": "~0.0.1",
+    "kosmtik": ">=0.0.2",
     "leaflet": "^0.7.3",
     "leaflet-editinosm": "^0.2.1"
   }
