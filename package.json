@@ -1,0 +1,29 @@
+{
+  "name": "kosmtik-editinosm",
+  "version": "0.0.1",
+  "description": "Add a control to jump into your prefered OSM editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kosmtik/kosmtik-editinosm.git"
+  },
+  "keywords": [
+    "openstreetmap",
+    "kosmtik",
+    "osm"
+  ],
+  "author": "Yohan Boniface",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/kosmtik/kosmtik-editinosm/issues"
+  },
+  "homepage": "https://github.com/kosmtik/kosmtik-editinosm",
+  "peerDependencies": {
+    "kosmtik": "~0.0.1",
+    "leaflet": "^0.7.3",
+    "leaflet-editinosm": "^0.2.1"
+  }
+}
