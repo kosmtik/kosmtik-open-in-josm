@@ -1,7 +1,7 @@
 var Hash = function (config) {
     config.addJS('/node_modules/leaflet-editinosm/Leaflet.EditInOSM.js');
     config.addCSS('/node_modules/leaflet-editinosm/Leaflet.EditInOSM.css');
-    config.addJS('/editinosm.js');
+    config.addJS('/open-in-josm.js');
     config.on('server:init', this.attachRoutes.bind(this));
 };
 
@@ -14,13 +14,13 @@ Hash.prototype.extendMap = function (req, res) {
                     position: 'topleft',
                     widget: 'simplebutton',
                     widgetOptions: {
-                        helpText: 'OSM',
-                        className: 'kosmtik-editinosm'
+                        helpText: 'JOSM',
+                        className: 'kosmtik-open-in-josm'
                     },
                     zoomThreshold: 14,
                     editors: ['josm']
                 };
-                this.editinosm = (new L.Control.EditInOSM(options)).addTo(this);
+                this.openinjosm = (new L.Control.EditInOSM(options)).addTo(this);
             });
         });
     };
@@ -28,7 +28,7 @@ Hash.prototype.extendMap = function (req, res) {
 };
 
 Hash.prototype.attachRoutes = function (e) {
-    e.server.addRoute('/editinosm.js', this.extendMap);
+    e.server.addRoute('/open-in-josm.js', this.extendMap);
 };
 
 exports.Plugin = Hash;

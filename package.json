@@ -1,26 +1,27 @@
 {
-  "name": "kosmtik-editinosm",
+  "name": "kosmtik-open-in-josm",
   "version": "0.0.1",
-  "description": "Add a control to jump into your prefered OSM editor",
+  "description": "Add a control to open JOSM with current map view",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kosmtik/kosmtik-editinosm.git"
+    "url": "git://github.com/kosmtik/kosmtik-open-in-josm.git"
   },
   "keywords": [
     "openstreetmap",
     "kosmtik",
-    "osm"
+    "osm",
+    "josm"
   ],
   "author": "Yohan Boniface",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/kosmtik/kosmtik-editinosm/issues"
+    "url": "https://github.com/kosmtik/kosmtik-open-in-josm/issues"
   },
-  "homepage": "https://github.com/kosmtik/kosmtik-editinosm",
+  "homepage": "https://github.com/kosmtik/kosmtik-open-in-josm",
   "peerDependencies": {
     "kosmtik": "~0.0.1",
     "leaflet": "^0.7.3",
