@@ -1,6 +1,6 @@
 {
   "name": "kosmtik-open-in-josm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Add a control to open JOSM with current map view",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,8 @@
     "url": "https://github.com/kosmtik/kosmtik-open-in-josm/issues"
   },
   "homepage": "https://github.com/kosmtik/kosmtik-open-in-josm",
+  "kosmtik": "~0.0.2",
   "peerDependencies": {
-    "kosmtik": ">=0.0.2",
-    "leaflet": "^0.7.3",
     "leaflet-editinosm": "^0.2.1"
   }
 }
