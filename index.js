@@ -32,4 +32,4 @@ class OpenInJOSM {
     };
 }
 
-exports = { Plugin: OpenInJOSM };
+exports = module.exports = { Plugin: OpenInJOSM };
